@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246F65CA1C42B43600954DFC /* ozone_strike.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 246F65C91C42B43600954DFC /* ozone_strike.hpp */; };
+		246F65CC1C42B43600954DFC /* ozone_strike.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 246F65CB1C42B43600954DFC /* ozone_strike.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		246F65C61C42B43600954DFC /* ozone-strike.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ozone-strike.kext"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246F65C91C42B43600954DFC /* ozone_strike.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ozone_strike.hpp; sourceTree = "<group>"; };
+		246F65CB1C42B43600954DFC /* ozone_strike.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ozone_strike.cpp; sourceTree = "<group>"; };
+		246F65CD1C42B43600954DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246F65C21C42B43600954DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246F65BC1C42B43600954DFC = {
+			isa = PBXGroup;
+			children = (
+				246F65C81C42B43600954DFC /* ozone-strike */,
+				246F65C71C42B43600954DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246F65C71C42B43600954DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246F65C61C42B43600954DFC /* ozone-strike.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246F65C81C42B43600954DFC /* ozone-strike */ = {
+			isa = PBXGroup;
+			children = (
+				246F65C91C42B43600954DFC /* ozone_strike.hpp */,
+				246F65CB1C42B43600954DFC /* ozone_strike.cpp */,
+				246F65CD1C42B43600954DFC /* Info.plist */,
+			);
+			path = "ozone-strike";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		246F65C31C42B43600954DFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F65CA1C42B43600954DFC /* ozone_strike.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		246F65C51C42B43600954DFC /* ozone-strike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246F65D01C42B43600954DFC /* Build configuration list for PBXNativeTarget "ozone-strike" */;
+			buildPhases = (
+				246F65C11C42B43600954DFC /* Sources */,
+				246F65C21C42B43600954DFC /* Frameworks */,
+				246F65C31C42B43600954DFC /* Headers */,
+				246F65C41C42B43600954DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ozone-strike";
+			productName = "ozone-strike";
+			productReference = 246F65C61C42B43600954DFC /* ozone-strike.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246F65BD1C42B43600954DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alejandro Leiva";
+				TargetAttributes = {
+					246F65C51C42B43600954DFC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 246F65C01C42B43600954DFC /* Build configuration list for PBXProject "ozone-strike" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 246F65BC1C42B43600954DFC;
+			productRefGroup = 246F65C71C42B43600954DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246F65C51C42B43600954DFC /* ozone-strike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246F65C41C42B43600954DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246F65C11C42B43600954DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F65CC1C42B43600954DFC /* ozone_strike.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		246F65CE1C42B43600954DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		246F65CF1C42B43600954DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		246F65D11C42B43600954DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = "ozone-strike/Info.plist";
+				MODULE_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.litio.driver.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		246F65D21C42B43600954DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = "ozone-strike/Info.plist";
+				MODULE_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.litio.driver.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246F65C01C42B43600954DFC /* Build configuration list for PBXProject "ozone-strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F65CE1C42B43600954DFC /* Debug */,
+				246F65CF1C42B43600954DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246F65D01C42B43600954DFC /* Build configuration list for PBXNativeTarget "ozone-strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F65D11C42B43600954DFC /* Debug */,
+				246F65D21C42B43600954DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246F65BD1C42B43600954DFC /* Project object */;
+}

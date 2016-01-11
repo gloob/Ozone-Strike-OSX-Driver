@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Ozone Strike Battle</key>
+		<dict>
+			<key>ProuctString</key>
+			<string>Ozone Strike Battle - V1</string>
+			<key>CFBundleIdentifier</key>
+			<string>org.litio.driver.${PRODUCT_NAME:rfc1034identifier}</string>
+			<key>IOClass</key>
+			<string>org_litio_driver_ozone_strike</string>
+			<key>IOKitDebug</key>
+			<integer>1</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bcdDevice</key>
+			<integer>4</integer>
+			<key>idProduct</key>
+			<real>41110</real>
+			<key>idVendor</key>
+			<real>1241</real>
+			<key>ReportDescriptorOverride</key>
+			<data></data>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Alejandro Leiva. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict/>
+</dict>
+</plist>
