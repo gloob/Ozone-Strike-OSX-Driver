@@ -28,13 +28,13 @@ class org_litio_driver_ozone_strike : public IOUSBHostHIDDevice {
     OSDeclareDefaultStructors(org_litio_driver_ozone_strike)
     
 public:
-    virtual bool init(OSDictionary *dictionary = 0) ;
-    virtual void free(void) ;
-    virtual bool start(IOService *provider) ;
-    virtual void stop(IOService *provider) ;
+    virtual bool init(OSDictionary *dictionary = 0) override;
+    virtual void free(void) override;
+    virtual bool start(IOService *provider) override;
+    virtual void stop(IOService *provider) override;
     
-    virtual IOReturn newReportDescriptor(IOMemoryDescriptor** descriptor) const ;
-    virtual OSString* newProductString() const ;
+    virtual IOReturn newReportDescriptor(IOMemoryDescriptor** descriptor) const override;
+    virtual OSString* newProductString() const override;
     
     unsigned char *reportDescriptor;
     UInt16 reportDescriptor_len;
