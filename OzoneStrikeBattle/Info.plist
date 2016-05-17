@@ -22,26 +22,34 @@
 	<string>1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Ozone Strike Battle</key>
+		<key>OzoneStrikeBattle</key>
 		<dict>
-			<key>ProuctString</key>
-			<string>Ozone Strike Battle - V1</string>
 			<key>CFBundleIdentifier</key>
-			<string>org.litio.driver.${PRODUCT_NAME:rfc1034identifier}</string>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>HIDDefaultBehavior</key>
+			<string></string>
 			<key>IOClass</key>
-			<string>org_litio_driver_ozone_strike</string>
-			<key>IOKitDebug</key>
-			<integer>1</integer>
+			<string>org_litio_OzoneStrikeBattle</string>
 			<key>IOProviderClass</key>
-			<string>IOUSBInterface</string>
+			<string>IOUSBHostInterface</string>
+			<key>IOKitDebug</key>
+			<integer>65535</integer>
+			<key>ReportDescriptorOverride</key>
+			<data>
+			BQEJBqEBhQWVCHUBFQAlAQUHGeAp54ECKWeVaBkAgQKVCIEBwAUBCYChAYUCGYEpgxUA
+			JQGVA3UBgQKVAXUFgQHABQwJAaEBhQMZACr/AhUAJv9/lQF1EIEAwAYA/wkBoQGFBhUA
+			Jv8ACS+VAnUIgQLABgH/CQGhAYUHFQAm/wAJIHUIlQexAsA=
+			</data>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
 			<key>bcdDevice</key>
-			<integer>4</integer>
+			<integer>3335</integer>
 			<key>idProduct</key>
 			<integer>41110</integer>
 			<key>idVendor</key>
 			<integer>1241</integer>
-			<key>ReportDescriptorOverride</key>
-			<data></data>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
@@ -55,6 +63,8 @@
 		<key>com.apple.kpi.iokit</key>
 		<string>15.4</string>
 		<key>com.apple.kpi.libkern</key>
+		<string>15.4</string>
+		<key>com.apple.kpi.mach</key>
 		<string>15.4</string>
 	</dict>
 </dict>

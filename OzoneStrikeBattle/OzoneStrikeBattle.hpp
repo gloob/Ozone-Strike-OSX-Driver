@@ -1,5 +1,5 @@
 //
-//  ozone-strike.hpp
+//  OzoneStrikeBattle.hpp
 //  https://github.com/gloob/Ozone-Strike-OSX-Driver
 //
 //  Copyright (c) 2016 Alejandro Leiva <gloob@litio.org>
@@ -19,25 +19,23 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //
 
-#pragma once
-
 #include "IOKit/usb/IOUSBHostHIDDevice.h"
 
-class org_litio_driver_ozone_strike : public IOUSBHostHIDDevice {
+class org_litio_OzoneStrikeBattle : public IOUSBHostHIDDevice {
 
-    OSDeclareDefaultStructors(org_litio_driver_ozone_strike)
-    
+    OSDeclareDefaultStructors(org_litio_OzoneStrikeBattle)
+
 public:
     virtual bool init(OSDictionary *dictionary = 0) override;
     virtual void free(void) override;
     virtual bool start(IOService *provider) override;
     virtual void stop(IOService *provider) override;
-    
+
     virtual IOReturn newReportDescriptor(IOMemoryDescriptor** descriptor) const override;
     virtual OSString* newProductString() const override;
-    
+
     unsigned char *reportDescriptor;
     UInt16 reportDescriptor_len;
-    
+
     OSString *name;
 };
